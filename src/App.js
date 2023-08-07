@@ -1,23 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+// import AccessFormInput from './componentes/AccessFormInput';
+import './app.css';
+import AccessFormbackGround from './componentes/AccessFormbackGround';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='container'>
+        <AccessFormbackGround title = "Mental Research Follow-Up"/>
+      </div>
+
     </div>
   );
 }
